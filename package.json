@@ -1,0 +1,25 @@
+{
+  "name": "stellaris-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "test": "mocha -r tsx \"test/**/*.spec.ts\""
+  },
+  "keywords": [],
+  "author": "mksudo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "utility-types": "^3.11.0"
+  }
+}
